@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "evaluacion3 Backend",
+    "collectionId": "7f4d18f8-83b7-402b-a487-3be42b3e9b5d",
+    "dateExported": "2025-06-04T13:20:56.796Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "401576c1-c9b0-41c3-853e-fd7f41842f89",
+            "colId": "7f4d18f8-83b7-402b-a487-3be42b3e9b5d",
+            "containerId": "",
+            "name": "creacionproductos",
+            "url": "http://localhost:3000/api/productos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-06-04T07:48:24.047Z",
+            "modified": "2025-06-04T08:34:46.135Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Lana Merino\",\n  \"descripcion\": \"Lana natural de oveja merino\",\n  \"precio\": 7900,\n  \"stock\": 10\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "d8854c18-38f4-4452-a1e5-8fe09be7acd9",
+            "colId": "7f4d18f8-83b7-402b-a487-3be42b3e9b5d",
+            "containerId": "",
+            "name": "Listaproductos",
+            "url": "http://localhost:3000/api/productos",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-06-04T07:50:22.006Z",
+            "modified": "2025-06-04T07:50:37.038Z",
+            "headers": []
+        },
+        {
+            "_id": "328f7189-716b-4e26-b322-08e4ef13d5ff",
+            "colId": "7f4d18f8-83b7-402b-a487-3be42b3e9b5d",
+            "containerId": "",
+            "name": "Verproducto",
+            "url": "http://localhost:3000/api/productos/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-06-04T08:05:01.117Z",
+            "modified": "2025-06-04T10:03:47.986Z",
+            "headers": []
+        },
+        {
+            "_id": "962d8537-ab4d-4ffb-ab98-08d72a899d32",
+            "colId": "7f4d18f8-83b7-402b-a487-3be42b3e9b5d",
+            "containerId": "",
+            "name": "actualizarproductos",
+            "url": "http://localhost:3000/api/productos/1",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2025-06-04T08:07:20.004Z",
+            "modified": "2025-06-04T09:51:30.616Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Lana Merino Premium\",\n  \"descripcion\": \"Versión suave\",\n  \"precio\": 8500,\n  \"stock\": 15\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "a0756a59-3527-4caf-ba8d-1edbe2fbd8fe",
+            "colId": "7f4d18f8-83b7-402b-a487-3be42b3e9b5d",
+            "containerId": "",
+            "name": "eliminarproducto",
+            "url": "http://localhost:3000/api/productos/1",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2025-06-04T08:10:23.727Z",
+            "modified": "2025-06-04T08:13:41.522Z",
+            "headers": []
+        }
+    ],
+    "ref": "WlrbgXaYhO9fp_VatM6htRJa2coBBP4Oy2UlDNeI6pI9SM13HEQAkTA-upgq4YhDciyOGEjMQNBcqNjs4Es7TA"
+}
